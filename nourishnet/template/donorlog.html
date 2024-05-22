@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NourishNet - Donor Login/Registration</title>
+    <link rel="stylesheet" href="d-log.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome  Donor!</h1>
+        <p>Please log in or create a new account to donate food and make a difference.</p>
+
+        <div class="form-wrapper">
+            <div class="form-toggle">
+                <button class="active" id="login-btn">Login</button>
+                <button id="register-btn">Register</button>
+            </div>
+
+            <form action="donors.html" method="post" class="active">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <!--<button type="submit">Login</button>-->
+                <a href="#">Forgot Password?</a>
+            </form>
+            <div class="buttons">
+                <button><a href="donors.html">LOGIN</a></button>
+                
+            </div>
+
+            <!--<form id="register-form" class="inactive">
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>-->
+
+        <p>Don't have an account yet? <a href="#" id="register-link">Register here</a></p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

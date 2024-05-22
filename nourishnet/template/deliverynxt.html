@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Agent Dashboard</title>
+  <link rel="stylesheet" href="deliverynxt.css">
+</head>
+<body>
+  <header>
+    <h1>Delivery Agent Dashboard</h1>
+  </header>
+  
+  <div class="container">
+    <section id="deliveries">
+      <h2>Assigned Deliveries</h2>
+      <ul id="deliveryList">
+        <!-- Delivery items will be populated here dynamically -->
+        
+      </ul>
+    </section>
+
+    <section id="profile" class="hidden">
+      <h2>My Profile</h2>
+      <form id="profileForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" readonly>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <button type="submit">Update Profile</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="deliverynxtjs.js"></script>
+</body>
+</html>

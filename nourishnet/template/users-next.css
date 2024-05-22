@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #153448;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.donors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Add CSS styles for the donor boxes */
+.donor {
+    width: 290px;
+    margin-bottom: 20px;
+    background-color: #DFD0B8;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+.donor:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd; /* Placeholder color */
+    background-size: cover;
+    border-radius: 50%; /* Make it circular */
+    margin: 20px;
+    transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+.profile-picture:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+.donor-details {
+    padding: 20px;
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #003C43;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NourishNet - Users</title>
+    <link rel="stylesheet" href="stylesheet(2).css">
+</head>
+<body>
+    <header>
+        
+        <h1>User Portal</h1>
+        <p>Safe, Fresh Meals.Delievered with Care.</p>
+        
+    </header>
+
+    <main>
+        <h2>Welcome, Users!</h2>
+        
+
+        <section class="user-features">
+            <h3>Features for You:</h3>
+            <ul>
+                <li>Browse a variety of healthy food providers near you.</li>
+                <li>View menus, photos, and nutritional information for dishes.</li>
+                <li>Easily place orders with your chosen providers.</li>
+                <li>Track your order status and estimated delivery time in real-time.</li>
+                <li>Access educational resources on healthy eating and dietary needs.</li>
+            </ul>
+        </section>
+
+        <section>
+            <form action="#" method="post">
+                <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+    </div> <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br> </div>
+                <span>
+                <button type="submit">Login</button> <span>
+                <b href="signup.html">Sign Up</b><br> </span>      
+                <div class="checkbox-line">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="checkbox-line">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I agree to the <b href="#">Terms and Conditions</b></label>
+                </div>
+                <div>
+                <input type="checkbox" id="get-location" name="get-location">
+                <!--<label for="get-location" onclick="getlocation()">getlocation</label>-->
+                <button onclick="getlocation()">getlocation</button>
+                <script src="location.js"></script>
+    
+                </div>
+            </form>
+        </section>
+
+        <section class="call-to-action">
+            <a href="users-next.html">Find Healthy Food Now!</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NourishNet. All rights reserved.</p>
+    </footer>
+    <script src="userscript.js"></script>
+</body>
+</html>

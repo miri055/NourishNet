@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NourishNet - Donate Food</title>
+  <link rel="stylesheet" href="stylesheet(2-D).css">
+</head>
+<body>
+  <header>
+    <h1>NourishNet</h1>
+    <p>Connecting communities through the power of healthy food.</p>
+  </header>
+
+  <main>
+    <h2>Become a Food Donor</h2>
+    <p>Help fight hunger and food waste by donating your surplus food with NourishNet.</p>
+
+    <form id="donation-form">
+      <h3>Your Donation Details</h3>
+      <div class="donation-details">
+        <label for="location">Your Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter your address or zip code" required>
+
+        <label for="food-type">Food Type:</label>
+        <select id="food-type" name="food-type" required>
+          <option value="">Select...</option>
+          <option value="fruits">Fruits</option>
+          <option value="vegetables">Vegetables</option>
+          <option value="prepared-meals">Prepared Meals</option>
+          <option value="non-perishables">Non-Perishables</option>
+          <option value="other">Other</option>
+        </select>
+
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter the approximate amount" required>
+      </div>
+
+      <h3>Food Condition</h3>
+      <div class="food-condition">
+        <label for="quality">Food Quality:</label>
+        <select id="quality" name="quality" required>
+          <option value="">Select...</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="fair">Fair</option>
+        </select>
+      </div>
+
+      <h3>Additional Information (Optional)</h3>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" placeholder="Provide details about your donation (e.g., allergies, best before date)"></textarea>
+
+      <button type="submit">Submit Donation</button>
+    </form>
+    
+
+    <!--<section class="features">
+      <h2>Your Impact with NourishNet</h2>
+      <ul>
+        <li>**Simplified Donation:** Donate food effortlessly through our user-friendly platform.</li>
+        <li>**Track Your Donations:** View past donations and their status.</li>
+        <li>**See Your Impact:** Visualize the positive difference you're making in your community.</li>
+      </ul>
+    </section>-->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 NourishNet. All rights reserved.</p>
+  </footer>
+  <script src="donorscript.js"></script>
+</body>
+</html>
+

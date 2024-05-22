@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NourishNet - Be a Delivery Hero</title>
+    <link rel="stylesheet" href="volunteers.css">
+</head>
+<body>
+    <header>
+        <h1>NourishNet</h1>
+        <p>Connecting communities through the power of healthy food.</p>
+    </header>
+
+    <main>
+        <h2>Become a Delivery Hero</h2>
+        <p>Help deliver nutritious food to those in need by volunteering with NourishNet.</p>
+
+        <form id="volunteer-signup" method="post" action="/signup">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number ">
+
+            <button type="submit">Sign Up to Volunteer</button>
+        </form>
+
+        <h2>Available Deliveries</h2>
+        <p>View upcoming deliveries that need your help!</p>
+        <ul id="delivery-list">
+            </ul>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NourishNet. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

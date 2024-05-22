@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Agent Dashboard</title>
+  <link rel="stylesheet" href="delivery.css">
+</head>
+<body>
+  <header>
+    <h1>Delivery Agent Dashboard</h1>
+  </header>
+  
+  <div class="container">
+    <section id="login">
+      <h2>Login<a href="deliverynxt.html" </h2>
+      <!-- Login form -->
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit" >Login</button>
+      </form>
+    </section>  
+        
+    
+    <section id="deliveries" class="hidden">
+      <h2>Assigned Deliveries</h2>
+      <!-- List of deliveries -->
+      <ul id="deliveryList">
+        <!-- Delivery items will be populated here dynamically -->
+      </ul>
+    </section>
+    <!--<script>
+            function nextpage(){
+                window.location.href="deliverynxt.html";
+            }
+        </script>-->
+      
+  </div>
+
+  <script src="deliveryjs.js"></script>
+</body>
+</html>
